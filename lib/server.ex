@@ -1,6 +1,6 @@
 defmodule Counter.Server do
   @moduledoc """
-  Boundary Layer - simple GenSever like state maschine
+  Boundary Layer - simple GenSever like state machine
   """
   @spec run(number) :: no_return
   def run(count) do
